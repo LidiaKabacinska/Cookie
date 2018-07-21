@@ -1,0 +1,87 @@
+body {
+    background: #98CAB2;
+  }
+  .circle {
+    border-radius: 50%;
+    overflow:hidden;
+  } 
+  
+  button {
+      background-color: #FFC5C0;
+      font-weight: bold;
+      border: none;
+      color: 222;
+      padding: 10px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 1.5em;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cookie {
+    width:200px;
+    height: 200px;
+    background-color: #b46d3c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239d5020' fill-opacity='0.2' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  }
+  
+  .choc {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    background-color: #222;
+  }
+  
+  #c1 {
+    left: 30%;
+    top: 5%;
+  }
+  
+  .bite {
+    width:45px;
+    height: 40px;
+    position: absolute;
+    background-color: #98CAB2;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .bite:first-child {
+    left:130px;
+  }
+  .bite:nth-child(2) {
+    left:160px;
+    top:30px;
+  }
+  #c2 {
+    left: 70%;
+    top: 15%;
+  }
+  
+  #c3 {
+    left: 40%;
+    top: 16%;
+  }
+  
+  #c4 {
+    left: 15%;
+    top: 16%;
+  }
+  
+  #c5 {
+    left: 50%;
+    top: 35%;
+  }
+  
+  #c6 {
+    left: 17%;
+    top: 22%;
+  }
+  
+  #c7 {
+    left: 77%;
+  }
